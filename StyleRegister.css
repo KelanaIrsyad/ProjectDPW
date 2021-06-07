@@ -1,0 +1,35 @@
+.tengah{
+position: absolute;
+margin-top: -100px;
+margin-left: -200px;
+left: 50%;
+top: 50%;
+width: 400px;
+height: 220px;
+background-color: #fc5185;
+}
+input[type=text], input[type=Email], input[type=password] {
+	margin: 5px auto;
+	width: 90%;
+	padding: 7px;
+}
+input[type=submit] {
+    margin 5px auto;
+    float: right;
+    padding: 5px;
+    width: 90px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+}
+input[type=button] {
+    margin 5px auto;
+    float: left;
+    padding: 5px;
+    width: 90px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+}

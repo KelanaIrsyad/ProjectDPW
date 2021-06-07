@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>EDU-COVID</title>
+    <link rel="stylesheet" href="style.css">
+<head>
+		<script type="text/javascript" src="quiz.js" ></script>
+</head>
+<body>
+
+<nav>
+	<div class="Wrapper">
+		<div class="logo"><a href=''>EDU-COVID</a></div>
+		<div class="menu">
+			<ul>
+				<li><a href="#covidrange">COVID RANGER</a></li>
+			    <li><a href="datacovid.php">ADMIN EDU COVID </a></li>
+				<div class="logout"><li><a href="logout.php">logout</a></li></div>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="Wrapper">
+	<section id="covidrange">
+		<div class="kolom">
+			<h2> Pendataan Penyebaran COVID-19</h2>
+			<form action="insertData.php" method="POST">
+<table>
+<tr>
+    <td>Kasus :</td>
+    <td><input type="text" name="kasus" required></td>
+   </tr>
+
+   <tr>
+    <td>Keterangan :</td>
+    <td><input type="text" name="keterangan" required></td>
+   </tr>
+
+   <tr>
+    <td>Wilayah :</td>
+    <td><input type="text" name="wilayah" required></td>
+   </tr>
+
+   <tr>
+    <td><input type="submit" value="Submit" name="submit" onclick="check()"></td>
+   </tr>
+
+</table>
+</form>
+		</div>
+	</section>
+
+</body>
+</html>
